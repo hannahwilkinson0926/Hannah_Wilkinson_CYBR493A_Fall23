@@ -1,5 +1,11 @@
 def main():
     print()
+    userInput = input("Guess the password")
+    if WordsCheckerWithInput(userInput) == True:
+        print("Moving to the next functionality")
+    else:
+        print("You are stuck here")
+
     #strTemp = "Fluffkinz"
     #CoolWordsChecker()
     #if WordsChecker.userInput == "Fluffkinz":
@@ -9,6 +15,17 @@ def main():
         print("Moving to next funcionality")
     else:
         print("You're stuck here")
+
+def WordsCheckerWithInput(data):
+    """
+    This method checks whether data matches the password
+    :param data: This is what is being passed from the main method
+    :return:
+    """
+    if (data =="Fluffkinz"):
+        return True
+    else:
+        return False
 
 def CoolWordsChecker():
     """
@@ -26,6 +43,3 @@ def CoolWordsChecker():
 
 if __name__ == "__main__":
     main()
-
-
-
