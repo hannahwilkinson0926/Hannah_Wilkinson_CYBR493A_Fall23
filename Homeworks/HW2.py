@@ -32,3 +32,9 @@ def HasSymbol(password):
         return True
     else:
         return False
+
+#def Digit(password):
+    #if ('%' in password) or ('!' in password) or ('@' in password) or ('#' in password) or ('$' in password) or ('&' in password) or ('*' in password):
+        #return True
+    #else:
+        #return False
