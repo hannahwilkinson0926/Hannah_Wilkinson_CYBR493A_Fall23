@@ -11,6 +11,8 @@ def main():
         A valid password is a password that is at least 8 characters long, has at least one number, and one symbol.
     """
 
+print(ValidLength("WVU"))
+
 
 # Accept password from user
 password = input("Give me a password to check")
