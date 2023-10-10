@@ -19,6 +19,7 @@ def ValidLength(password):
    This method checks whether the password has at least one number.
 """
 def HasNumber(password):
+    #@MJ: This is brilliant however, it is very lengthy. See answer key for a shorter way to do this.
     if ('1' in password) or ('2' in password) or ('3' in password) or ('4' in password) or ('5' in password) or ('6' in password) or ('7' in password) or ('8' in password) or ('9' in password) or ('0' in password):
             return True
     else:
